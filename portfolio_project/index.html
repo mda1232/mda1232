@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper-header">
+		<header class="header">
+
+			<div class="wrapper-logo">
+				<div class="logo"></div>
+			</div>
+				
+			<nav class="topnav">
+				<a href="#first" class="topnav-link">О нас</a>
+				<a href="#second" class="topnav-link">Галерея</a>
+				<a href="#third" class="topnav-link">Контакты</a>
+			</nav>
+
+			<a href="tel:+7(000)000-00-00" class="header-phone">+7(000)000-00-00</a>			
+		</header>
+	</div>
+
+	<div class="screen">
+		<div class="screen-wrapper">
+			<div class="screen-box">
+				<h1 class="title">продам ГАРАЖ</h1>
+				<div class="subtitle">купи ГАРАЖ, не БУДЬ ЧУШКОЙ</div>
+				<a href="#" class="button">КУПИТЬ</a>
+			</div>
+			<div class="screen-image"></div>
+		</div>	
+	</div>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="block"><path fill="#7119ff" fill-opacity="1" d="M0,32L13.3,74.7C26.7,117,53,203,80,213.3C106.7,224,133,160,160,138.7C186.7,117,213,139,240,138.7C266.7,139,293,117,320,128C346.7,139,373,181,400,181.3C426.7,181,453,139,480,133.3C506.7,128,533,160,560,181.3C586.7,203,613,213,640,197.3C666.7,181,693,139,720,138.7C746.7,139,773,181,800,181.3C826.7,181,853,139,880,138.7C906.7,139,933,181,960,192C986.7,203,1013,181,1040,149.3C1066.7,117,1093,75,1120,69.3C1146.7,64,1173,96,1200,117.3C1226.7,139,1253,149,1280,133.3C1306.7,117,1333,75,1360,58.7C1386.7,43,1413,53,1427,58.7L1440,64L1440,0L1426.7,0C1413.3,0,1387,0,1360,0C1333.3,0,1307,0,1280,0C1253.3,0,1227,0,1200,0C1173.3,0,1147,0,1120,0C1093.3,0,1067,0,1040,0C1013.3,0,987,0,960,0C933.3,0,907,0,880,0C853.3,0,827,0,800,0C773.3,0,747,0,720,0C693.3,0,667,0,640,0C613.3,0,587,0,560,0C533.3,0,507,0,480,0C453.3,0,427,0,400,0C373.3,0,347,0,320,0C293.3,0,267,0,240,0C213.3,0,187,0,160,0C133.3,0,107,0,80,0C53.3,0,27,0,13,0L0,0Z"></path></svg>
+	
+
+	<div class="section" id='first'>
+		<div class="section-box">
+			<h2 class="section-title">О нас</h2>
+			<div class="section-container">
+				<div class="section-item">
+                    <div class="section-item-img" style="background-image: url(car.png);"></div>
+                    <div class="section-item-title">Надежность</div>
+                    <div class="section-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam error quae voluptatibus provident, animi blanditiis. Consequuntur dolorem, suscipit illum deleniti? Error repudiandae fugiat ipsa fugit voluptatem velit eum autem.</div>
+                    <a href="" class="button">Осознать</a>
+                </div>
+                <div class="section-item">
+                    <div class="section-item-img" style="background-image: url(meeting.png);"></div>
+                    <div class="section-item-title">Сплоченность</div>
+                    <div class="section-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste mollitia, illum non, molestias iusto doloribus asperiores. Delectus ad voluptates neque iste, atque facere vel adipisci facilis, tempore accusamus tenetur nobis.</div>
+                    <a href="" class="button">Научиться</a>
+                </div>
+                <div class="section-item">
+                    <div class="section-item-img" style="background-image: url(support.png);"></div>
+                    <div class="section-item-title">Поддержка</div>
+                    <div class="section-item-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dignissimos similique, obcaecati asperiores assumenda quas possimus illo unde, sit velit ex ipsa doloribus magni fugiat perspiciatis maxime itaque rerum nobis!
+                    lorem
+                Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Sequi consectetur vel molestias quasi quo ex facere praesentium commodi similique a neque tempore eum dolorum temporibus adipisci, pariatur molestiae rerum libero?</div>
+                    <a href="" class="button">Получить</a>
+                </div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+    	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+      			<form class="form">
+      				<h2 class="form-title">Оставить заявку</h2>
+
+      				<div class="input-wrapper">
+      					<label for="name">Имя</label>
+      					<input type="text" name="name" required>
+      				</div>
+
+      				<div class="input-wrapper">
+      					<label for="phone">Телефон</label>
+      					<input type="text" name="phone" required>
+      				</div>
+
+      				<input type="submit" value="Отправить">
+      			</form>
+     		 </div>
+    	</div>
+ 	</div>
+
+ 	<div class=""id='second'>	
+ 		<div class="gallery-box">
+ 			<h2 class="gallery-title">Галерея</h2>
+ 			<div class="gallery-container">
+	            <div class="gallery-item">
+	                <div class="gallery-item-text">Hello word</div>
+	            </div>
+	            <div class="gallery-item">
+	                <div class="gallery-item-text">Hello word</div>
+	            </div>
+	            <div class="gallery-item">
+	                <div class="gallery-item-text">Hello word</div>
+	            </div>
+	            <div class="gallery-item">
+	                <div class="gallery-item-text">Hello word</div>
+	            </div>
+	            <div class="gallery-item">
+	                <div class="gallery-item-text">Hello word</div>
+	            </div><div class="gallery-item">
+	                <div class="gallery-item-text">Hello word</div>
+	            </div>
+	            <div class="gallery-item">
+	                <div class="gallery-item-text">Hello word</div>
+	            </div>
+	            <div class="gallery-item">
+	                <div class="gallery-item-text">Hello word</div>
+	            </div>
+	 			</div>
+        </div>
+ 	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	<div class="footer"id='third'>
+ 		<div class="footer-box">
+ 			<h2 class="footer-title">Контакты</h2>
+			<div class="footer-container">
+				
+				<div class="ct">
+					<div class="topkont">
+						<a href="tel:+7(000)000-00-00" class="footer-phone">+7(000)000-00-00</a>
+						<a href="mailto:email@gmail.com" class="footer-email">email@gmail.com</a>
+						<p class="footer-adress">Москва, Красная пл, 3</p>
+					</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.263179212756!2d37.61860631634018!3d55.753930280553696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506b52311f!2z0JrRgNCw0YHQvdCw0Y8g0J_Qu9C-0YnQsNC00Yw!5e0!3m2!1sru!2sru!4v1617478699458!5m2!1sru!2sru" style="border:0;"allowfullscreen="" loading="lazy" class="cart"></iframe>
+					
+				</div>
+				
+				
+			</div>
+ 		</div>
+ 	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	<script>
+ 		//Скролл функция
+ 		$(document).ready(function(){
+ 			$('.topnav-link').on('click', function(event){
+ 				event.preventDefault();
+
+ 				const id = $(this).attr('href');
+
+ 				const windowScroll = $(window).scrollTop();
+ 				const elementOffset = $(id).offset().top - 90;
+
+ 				const delta = Math.abs(windowScroll - elementOffset) / 1000;
+
+ 				$('html, body').animate(
+ 					{scrollTop: elementOffset}, 1000 * delta	
+ 				);
+
+
+ 			}
+ 		}
+ 	</script>
+
+	<script src="https://unpkg.com/micromodal/dist/micromodal.min.js">
+	</script>
+
+	<script>
+	  	const button = document.querySelector('a.button');
+	  	console.log(button);
+
+	  	button.addEventListener('click', function(event){
+	  		event.preventDefault();
+
+	  		MicroModal.show('modal-1');
+	  	});
+
+	  	MicroModal.init({
+	  		onShow: modal => console.info(`${modal.id} is shown`), // [1]
+	  		onClose: modal => console.info(`${modal.id} is hidden`), // [2]
+	  		openTrigger: 'data-custom-open', // [3]
+	  		closeTrigger: 'data-custom-close', // [4]
+	  		openClass: 'is-open', // [5]
+	  		disableScroll: true, // [6]
+	  		disableFocus: false, // [7]
+	  		awaitOpenAnimation: false, // [8]
+	  		awaitCloseAnimation: false, // [9]
+	  		debugMode: true // [10]
+		});
+	</script>
+	<script>
+	  	const items = [...document.querySelectorAll('.section-item-text')];
+	  	items.forEach(function(item) {
+	  		const width = item.getBoundingClientRect().width - 40;
+	  		const text = item.innerText;
+
+	  		item.innerText = text.slice(0, (width / 10) * 7 - 3) + '...'
+	  		console.log(parseInt(width / 10) * 7 - 3);
+	  	});
+	</script>
+</body>
+</html>
