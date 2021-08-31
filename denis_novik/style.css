@@ -41,7 +41,7 @@ body{
 .wrapper-header{
     list-style-type: none;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
     .header{
         display: none; 
         border: none; 
@@ -59,7 +59,7 @@ body{
 .info_m{
     display: none;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
     .info_m{
         display: flex;
         justify-content: flex-start;
@@ -79,7 +79,7 @@ body{
     }
 
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
     .er{
        padding-left: 30px;
     }
@@ -93,13 +93,13 @@ body{
     display: none;
     
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
     .img_info{
         display: none;
         
     }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
     .img_info_m{
         display: inherit;
         text-align: center;
@@ -116,7 +116,7 @@ body{
 
     
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
     .button{
         display: none;
     }
@@ -152,7 +152,7 @@ body{
     justify-content: space-between;
 
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
     .cards{
         flex-direction: column;
     }
@@ -183,7 +183,7 @@ body{
     font-size: 18px;
 
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
     .p_i{
         max-width: 360px ;
     }
